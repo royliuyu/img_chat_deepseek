@@ -39,4 +39,4 @@
 ### Acknowledgement
  - The AI model is forked on [deepseek-ai
 Janus](https://github.com/deepseek-ai/Janus/tree/main?tab=readme-ov-file).
- - Junus' source code is under the folder of "Janus"
+ - Janus' source code is under the folder of "Janus"
