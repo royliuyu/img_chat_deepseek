@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat with Image AI Playground</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Chat with Image AI Playground</h1>
+
+    <div class="container">
+
+        <div class="upload-section">
+            <h2>Uploaded Image</h2>
+            <img id="uploadedImage" class="uploaded-image" src="" alt="Uploaded Image" style="display:none;">
+            <div class="file-input">
+                <input type="file" id="fileInput" accept="image/jpeg,image/png" />
+                <label for="fileInput">Upload Image</label>
+            </div>
+        </div>
+
+
+        <div class="chat-section">
+            <div class="right-side-summary">
+                <h2 class="summary-title">Chat Area</h2>
+                <p class="summary-text">This is a summary of the image.</p>
+            </div>
+            <div class="chat-session" id="chatSession">
+
+            </div>
+            <div class="chat-input-container">
+                <textarea id="chatInput" class="chat-input" placeholder="Ask me..."></textarea>
+                <button id="chatSendButton" class="chat-send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
